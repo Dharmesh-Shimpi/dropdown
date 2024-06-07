@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: dropdown
-    env: static
-    buildCommand: npm run build
-    installCommand: npm install
-    staticPublishPath: build
